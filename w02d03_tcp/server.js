@@ -9,7 +9,7 @@ const writeBack = (data, socket) => {
 const writeToAll = (data, socket, listOfClients) => {
   for(const client of listOfClients) {
     if(socket.id !== client.id){
-      
+
       client.write(`\t${socket.avatar} ${socket.id}: ${data}`);
     }
   }
@@ -43,6 +43,7 @@ server.on('connection', (socket) => {
   })
 
 })
+
 
 // have server running on a specified port
 // and listening for connections
