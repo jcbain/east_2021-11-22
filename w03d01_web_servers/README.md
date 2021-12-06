@@ -2,9 +2,9 @@
 
 ## Objectives
 - [X] TinyApp Demo
-- [ ] Web Servers
-- [ ] Express
-- [ ] Middleware
+- [X] Web Servers
+- [X] Express
+- [X] Middleware
 
 ## Web server
 - just another computer
