@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css"/>
+
+  <title>Register</title>
+</head>
+<body>
+  <header>
+
+    <h1>Register below</h1>
+  </header>
+  <main>
+
+    <h2>Been here before? <a href="/">login instead!</a></h2>
+    
+    <form method="POST" action="/register">
+      <label>Email address:</label>
+      <input name="email" />
+      <br/>
+  
+      <label>Password:</label>
+      <input required name="password" />
+      <br/>
+  
+      <label>Your super secret that you totally trust us with:</label>
+      <input required name="superSecret" />
+      <br/>
+  
+      <button type="submit">Register!</button>
+    </form>
+  </main>
+</body>
+</html>

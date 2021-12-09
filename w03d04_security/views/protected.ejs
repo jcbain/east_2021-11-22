@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css"/>
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <p>welcome <span class="user-email"><%= user.email %></span></p>
+    <form method="POST" action="/logout">
+      <button class="logout" type="submit">Logout</button>
+    </form>
+  </header>
+  
+  <main>
+    <h1>Protected Secrets!</h1>
+    <h2>And your super secret that you don't want anyone else to know is: </h2>
+    <p><%= user.superSecret %></p>
+  </main>
+
+</body>
+</html>
