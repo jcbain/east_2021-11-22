@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+#channels {
+  border: 4px solid blue;
+  border-radius: 3px;
+  padding: 10px 30px;
+}
+
+#channels.celebration {
+  border: 4px dotted palevioletred;
+  background-color: peru;
+  color: papayawhip;
+}
