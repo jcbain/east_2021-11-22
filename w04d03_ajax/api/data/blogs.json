@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Worst Meal of the Year",
+    "body": "Goodness sakes oh me oh my! I don't care how much dark chocolate is in, it should never be reduced and put on brocolli!",
+    "userId": 1
+  },
+  {
+    "id": 2,
+    "title": "My Uncle Got a Puppy",
+    "body": "...and named it Aunty Tanya",
+    "userId": 3
+  },
+  {
+    "id": 3,
+    "title": "Join Me in Welcoming Gillian Anderson to the Team",
+    "body": "Gillian brings to us a diverse background in paranormal research, therapy and dealing with difficult adults.",
+    "userId": 2
+  },
+  {
+    "id": 4,
+    "title": "I Only Drink Tea",
+    "body": "I'm giving up water! Too mainstream. Did you know that even plants drink it? Do I look like a plant?",
+    "userId": 4
+  },
+  {
+    "id": 5,
+    "title": "I Made a Huge Mistake",
+    "body": "So...apparently you aren't supposed to heat up lettuce. This would have been nice to know prior to microwaving and entire head of romaine!",
+    "userId": 6
+  },
+  {
+    "id": 6,
+    "title": "California",
+    "body": "I think that's a state but wanted to put my feelers out there in case any of you can verify.",
+    "userId": 5
+  },
+  {
+    "id": 7,
+    "title": "The Time is Now",
+    "body": "Enough is enough. It's time to see if Twinkies actually expire.",
+    "userId": 6
+  }
+]
