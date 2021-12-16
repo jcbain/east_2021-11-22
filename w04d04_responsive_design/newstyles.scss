@@ -1,0 +1,84 @@
+@import "_variables";
+
+@mixin cool-mixin {
+  color: aquamarine;
+  background-color: blanchedalmond;
+}
+
+@mixin make-rectangular($n) {
+  width: $n;
+  height: 2 * $n;
+  @include cool-mixin();
+}
+
+.small {
+  @include make-rectangular(10px);
+}
+
+.medium {
+  @include make-rectangular(20vw);
+}
+
+.large {
+  @include make-rectangular(1000rem);
+}
+
+h1 {
+  @include cool-mixin();
+}
+
+.alert {
+  color: red;
+  background-color: ivory;
+  border: $border;
+}
+
+div {
+  @extend .alert;
+  font-family: cursive;
+}
+
+header {
+  background-color: $main-color;
+  border: $border;
+}
+
+footer {
+  background-color: $secondary-color;
+}
+
+section {
+  background-color: green;
+  p {
+    font-size: 16px;
+  }
+  &.celebration {
+    font-size: 42px;
+    color: hotpink;
+  }
+  &:hover {
+    border: $border;
+  }
+}
+
+
+// <header class="some-class">
+// </header>
+
+// header.some-class {
+
+// }
+
+// <header>
+//   <p class="some-class"></p>
+//   <h2 class="some-class"></h2>
+//   <p>
+//     <h2 class="some-class"></h2>
+//   </p>
+// </header>
+
+// header .some-class {
+
+// }
+
+

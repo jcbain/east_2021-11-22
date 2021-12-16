@@ -1,0 +1,58 @@
+.small {
+  width: 10px;
+  height: 20px;
+  color: aquamarine;
+  background-color: blanchedalmond;
+}
+
+.medium {
+  width: 20vw;
+  height: 40vw;
+  color: aquamarine;
+  background-color: blanchedalmond;
+}
+
+.large {
+  width: 1000rem;
+  height: 2000rem;
+  color: aquamarine;
+  background-color: blanchedalmond;
+}
+
+h1 {
+  color: aquamarine;
+  background-color: blanchedalmond;
+}
+
+.alert, div {
+  color: red;
+  background-color: ivory;
+  border: 2px solid papayawhip;
+}
+
+div {
+  font-family: cursive;
+}
+
+header {
+  background-color: #5dcae7;
+  border: 2px solid papayawhip;
+}
+
+footer {
+  background-color: maroon;
+}
+
+section {
+  background-color: green;
+}
+section p {
+  font-size: 16px;
+}
+section.celebration {
+  font-size: 42px;
+  color: hotpink;
+}
+section:hover {
+  border: 2px solid papayawhip;
+}
