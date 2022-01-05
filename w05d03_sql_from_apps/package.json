@@ -1,0 +1,15 @@
+{
+  "name": "w05d03_sql_from_apps",
+  "version": "1.0.0",
+  "description": "## Objectives - [ ] create a database - [ ] perform BREAD operations on database with command line app - [ ] demonstrate an SQL Injection attack - [ ] Serve database content to the browser - [ ] Envirornment variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.7.1"
+  }
+}
