@@ -1,23 +1,11 @@
-const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
-  mode: 'development',
-  devtool: false,
   entry: "./src/newIndex.js",
-  devServer: {
-    port: 3000
-  },
-  output: {
-    path: path.resolve(__dirname, "build"),
-    filename: "[contenthash].bundle.js"
-  },
   plugins: [
     new HtmlWebpackPlugin({
       template: './public/index.html'
     }),
-    new CleanWebpackPlugin()
   ],
   module: {
     rules: [
